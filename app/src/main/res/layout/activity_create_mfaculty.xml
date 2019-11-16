@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateMFaculty">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CreateYourAvatarName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-154dp">
+
+        <Button
+            android:id="@+id/buttonToFaculty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Step"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.831" />
+
+        <TextView
+            android:id="@+id/facultyQuestion"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="616dp"
+            android:text="Faculty"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:fontFamily="@font/montserrat"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="193dp" />
+
+        <Button
+            android:id="@+id/artsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arts"
+            tools:layout_editor_absoluteX="274dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+        <Button
+            android:id="@+id/ScienceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Science"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+        <Button
+            android:id="@+id/artsciButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arts & Sci"
+            tools:layout_editor_absoluteX="286dp"
+            tools:layout_editor_absoluteY="399dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="200dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="384dp" />
+
+        <Button
+            android:id="@+id/dentistry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dentistry"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
