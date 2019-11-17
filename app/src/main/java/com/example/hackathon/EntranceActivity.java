@@ -12,17 +12,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class EntranceActivity extends AppCompatActivity {
 
+    String Name;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entrance);
 
         Intent i = getIntent();
-        Martlet martlet = (Martlet) i.getSerializableExtra("m");
+       // Martlet martlet = (Martlet) i.getSerializableExtra("m");
+       // Martlet m= (Martlet) getIntent.getSerializableExtra("martlet");
 
-
+        Name = getIntent().getExtras().getString("NAME");
         TextView namePrint = (TextView) findViewById(R.id.chatbotTitle);
-        namePrint.setText(martlet.getName());
+        namePrint.setText("Hello "+ Name+ " ! ");
 
 
         // Access the chatbot by clicking on marty

@@ -7,8 +7,11 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import java.io.Serializable;
 public class CreateYourAvatarName extends AppCompatActivity {
+
+    EditText nameText;
+    EditText idText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,18 +26,20 @@ public class CreateYourAvatarName extends AppCompatActivity {
            public void onClick(View v) {
 
 
-               EditText nameText = (EditText) findViewById(R.id.nameBlank);
-               EditText idText = (EditText) findViewById(R.id.idBlank);
+               nameText = (EditText) findViewById(R.id.nameBlank);
+               idText = (EditText) findViewById(R.id.idBlank);
 
-               String name = nameText.toString();
+               Intent startIntent = new Intent(getApplicationContext(),EntranceActivity.class);
+               String name = nameText.getText().toString();
                int id = Integer.parseInt(idText.getText().toString());
 
-               // create intent to go to 2nd Activity
-               Intent startIntent = new Intent(getApplicationContext(),EntranceActivity.class);
-               startActivity(startIntent);
+               startIntent.putExtra("NAME",name);
 
+               // create intent to go to 2nd Activity
+               startActivity(startIntent);
            }
        });
+
 
     }
 }

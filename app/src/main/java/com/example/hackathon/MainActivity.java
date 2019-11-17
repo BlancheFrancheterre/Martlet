@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Martlet m = new Martlet("bob", 1);
+
 
         Button connect = (Button) findViewById(R.id.connect);
         connect.setOnClickListener(new View.OnClickListener() {
@@ -51,8 +51,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // create intent to go to 2nd Activity
+
                 Intent startIntent = new Intent(getApplicationContext(), CreateYourAvatarName.class);
-                startIntent.putExtra("m", (Serializable) m);
+               // startIntent.putExtra("m", (Serializable) m);
                 startActivity(startIntent);
             }
         });
