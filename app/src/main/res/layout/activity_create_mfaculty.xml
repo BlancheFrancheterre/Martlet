@@ -26,8 +26,8 @@
 
         <TextView
             android:id="@+id/facultyQuestion"
-            android:layout_width="164dp"
-            android:layout_height="wrap_content"
+            android:layout_width="94dp"
+            android:layout_height="30dp"
             android:layout_marginBottom="616dp"
             android:text="Faculty"
             android:textColor="#000000"
@@ -39,67 +39,76 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/educationButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="153dp"
-            tools:layout_editor_absoluteY="193dp" />
+            android:text="Education"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="200dp" />
 
         <Button
             android:id="@+id/artsButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Arts"
-            tools:layout_editor_absoluteX="274dp"
-            tools:layout_editor_absoluteY="195dp" />
+            tools:layout_editor_absoluteX="282dp"
+            tools:layout_editor_absoluteY="200dp" />
 
         <Button
             android:id="@+id/ScienceButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Science"
-            tools:layout_editor_absoluteX="281dp"
-            tools:layout_editor_absoluteY="288dp" />
+            tools:layout_editor_absoluteX="282dp"
+            tools:layout_editor_absoluteY="271dp" />
 
         <Button
             android:id="@+id/artsciButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Arts & Sci"
-            tools:layout_editor_absoluteX="286dp"
-            tools:layout_editor_absoluteY="399dp" />
+            android:text="Arts and Sci"
+            tools:layout_editor_absoluteX="274dp"
+            tools:layout_editor_absoluteY="341dp" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/engineeringbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Engineering"
             tools:layout_editor_absoluteX="29dp"
             tools:layout_editor_absoluteY="200dp" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/lawButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
-            tools:layout_editor_absoluteX="31dp"
-            tools:layout_editor_absoluteY="288dp" />
+            android:text="Law"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="271dp" />
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/managementButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
-            tools:layout_editor_absoluteX="47dp"
-            tools:layout_editor_absoluteY="384dp" />
+            android:text="Management"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="271dp" />
 
         <Button
-            android:id="@+id/dentistry"
+            android:id="@+id/musicButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dentistry"
+            android:text="Music"
             tools:layout_editor_absoluteX="157dp"
-            tools:layout_editor_absoluteY="281dp" />
+            tools:layout_editor_absoluteY="341dp" />
+
+        <Button
+            android:id="@+id/medecineButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medecine"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="341dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

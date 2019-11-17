@@ -62,7 +62,7 @@
         android:layout_width="433dp"
         android:layout_height="334dp"
         android:background="#D72324"
-        app:srcCompat="@drawable/MartyLogo"
+        app:srcCompat="@drawable/logomarty"
         tools:layout_editor_absoluteX="-11dp"
         tools:layout_editor_absoluteY="16dp" />
 

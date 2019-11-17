@@ -9,6 +9,7 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.File;
+import java.io.Serializable;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final Martlet m = new Martlet("bob", 1);
 
         Button connect = (Button) findViewById(R.id.connect);
         connect.setOnClickListener(new View.OnClickListener() {
@@ -49,10 +52,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // create intent to go to 2nd Activity
                 Intent startIntent = new Intent(getApplicationContext(), CreateYourAvatarName.class);
+                startIntent.putExtra("m", (Serializable) m);
                 startActivity(startIntent);
             }
         });
 
 
     }
+
 }

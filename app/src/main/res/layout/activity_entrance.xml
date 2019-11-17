@@ -13,7 +13,7 @@
         android:cropToPadding="false"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/marty"
-        tools:layout_editor_absoluteY="-21dp" />
+        tools:layout_editor_absoluteY="149dp" />
 
     <Button
         android:id="@+id/chatbotButton"
@@ -28,5 +28,60 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.383" />
+    <ImageButton
+        android:id="@+id/informationBtn"
+        android:layout_width="64dp"
+        android:layout_height="72dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026"
+        app:srcCompat="@drawable/info" />
+    <ImageButton
+        android:id="@+id/phone"
+        android:layout_width="64dp"
+        android:layout_height="72dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+        app:srcCompat="@drawable/phone" />
+    <ImageButton
+        android:id="@+id/social"
+        android:layout_width="64dp"
+        android:layout_height="72dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+        app:srcCompat="@drawable/activity" />
+    <ImageButton
+        android:id="@+id/eat"
+        android:layout_width="64dp"
+        android:layout_height="72dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+        app:srcCompat="@drawable/eat" />
 
+    <TextView
+        android:id="@+id/chatbotTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="94dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

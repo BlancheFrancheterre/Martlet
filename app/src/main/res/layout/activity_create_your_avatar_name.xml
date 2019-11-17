@@ -65,7 +65,7 @@
         android:layout_width="213dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
@@ -79,7 +79,7 @@
         android:layout_height="wrap_content"
         android:text="Register"
         android:textColor="#FF0000"
-        android:textSize="30"
+        android:textSize="30sp"
         app:fontFamily="@font/montserrat"
         tools:layout_editor_absoluteX="145dp"
         tools:layout_editor_absoluteY="107dp" />
