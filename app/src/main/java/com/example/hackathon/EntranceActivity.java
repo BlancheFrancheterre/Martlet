@@ -28,7 +28,7 @@ public class EntranceActivity extends AppCompatActivity {
 
 
         // Access the chatbot by clicking on marty
-        Button chatbotButton = (Button) findViewById(R.id.chatbotButton);
+        Button chatbotButton = (Button) findViewById(R.id.chatbotBtn);
         chatbotButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -76,7 +76,7 @@ public class EntranceActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                progressBarEnergy.setProgress(80);
+               // progressBarEnergy.setProgress(80);
                 Intent startIntent3 = new Intent(getApplicationContext(), Information.class);
                 startActivity(startIntent3);
             }

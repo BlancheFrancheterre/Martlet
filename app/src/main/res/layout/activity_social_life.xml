@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D72324"
+    tools:context=".SocialLife">
+
+    <TextView
+        android:id="@+id/socialLife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Social Life"
+        android:textColor="#F1E8E9"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="344dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="20dp"
+        android:text="➤ Mcgill is a great university and a very stressful environment.You need to go out of your comfort zone! "
+        android:textColor="#E9D8DA"
+        android:textSize="18sp"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/socialLife" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="342dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="76dp"
+        android:text="➤ There are a lot of opportunities to meet new people, a lot of events to have fun with your friends."
+        android:textColor="#EEDEE0"
+        android:textSize="18sp"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/socialLife"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="345dp"
+        android:layout_height="69dp"
+        android:text="➤ Here are a few links to the events around you."
+        android:textColor="#EDE3E4"
+        android:textSize="18sp"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <Button
+        android:id="@+id/link1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friends"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <Button
+        android:id="@+id/link2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Events"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/link1"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <Button
+        android:id="@+id/link3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/link2"
+        app:layout_constraintVertical_bias="0.165" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

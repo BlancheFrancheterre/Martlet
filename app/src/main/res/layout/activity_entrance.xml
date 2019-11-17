@@ -6,28 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".EntranceActivity">
 
-    <ImageView
-        android:id="@+id/marty"
-        android:layout_width="396dp"
-        android:layout_height="702dp"
-        android:cropToPadding="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/marty"
-        tools:layout_editor_absoluteY="149dp" />
-
-    <Button
-        android:id="@+id/chatbotButton"
-        android:layout_width="176dp"
-        android:layout_height="199dp"
-        android:text="Button"
-        android:textColor="#00FFFFFF"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.297"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.383" />
     <ImageButton
         android:id="@+id/informationBtn"
         android:layout_width="64dp"
@@ -82,10 +60,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:textSize="24sp"
+        app:fontFamily="@font/montserrat_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.137" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/marty"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="17dp" />
+    <Button
+        android:id="@+id/chatbotBtn"
+        android:layout_width="433dp"
+        android:layout_height="287dp"
+        android:background="#00FFFFFF"
+        tools:layout_editor_absoluteX="-18dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
